@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D80DAFEB1D99763600D1D1FC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80DAFEA1D99763600D1D1FC /* TableViewCell.swift */; };
 		D847CE4D1D99623C00CDF053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847CE4C1D99623C00CDF053 /* AppDelegate.swift */; };
-		D847CE4F1D99623C00CDF053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847CE4E1D99623C00CDF053 /* ViewController.swift */; };
 		D847CE521D99623C00CDF053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D847CE501D99623C00CDF053 /* Main.storyboard */; };
 		D847CE541D99623C00CDF053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D847CE531D99623C00CDF053 /* Assets.xcassets */; };
 		D847CE571D99623C00CDF053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D847CE551D99623C00CDF053 /* LaunchScreen.storyboard */; };
+		D847CE5F1D99628900CDF053 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847CE5E1D99628900CDF053 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D80DAFEA1D99763600D1D1FC /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		D847CE491D99623C00CDF053 /* Autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D847CE4C1D99623C00CDF053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D847CE4E1D99623C00CDF053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D847CE511D99623C00CDF053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D847CE531D99623C00CDF053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D847CE561D99623C00CDF053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D847CE581D99623C00CDF053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D847CE5E1D99628900CDF053 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				D847CE4C1D99623C00CDF053 /* AppDelegate.swift */,
-				D847CE4E1D99623C00CDF053 /* ViewController.swift */,
 				D847CE501D99623C00CDF053 /* Main.storyboard */,
 				D847CE531D99623C00CDF053 /* Assets.xcassets */,
 				D847CE551D99623C00CDF053 /* LaunchScreen.storyboard */,
 				D847CE581D99623C00CDF053 /* Info.plist */,
+				D847CE5E1D99628900CDF053 /* TableViewController.swift */,
+				D80DAFEA1D99763600D1D1FC /* TableViewCell.swift */,
 			);
 			path = Autolayout;
 			sourceTree = "<group>";
@@ -136,7 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D847CE4F1D99623C00CDF053 /* ViewController.swift in Sources */,
+				D80DAFEB1D99763600D1D1FC /* TableViewCell.swift in Sources */,
+				D847CE5F1D99628900CDF053 /* TableViewController.swift in Sources */,
 				D847CE4D1D99623C00CDF053 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +301,7 @@
 				D847CE5D1D99623C00CDF053 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
